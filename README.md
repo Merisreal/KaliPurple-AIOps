@@ -10,5 +10,5 @@ Máy Kali ELK đóng vai trò thu nhận log từ Zeek. Sau khi log được x�
 ### Tầng 3 – Cảnh báo và phân tích sâu (Alerting & Deep Analysis Layer):
 Một máy ảo Kali Purple khác, được cài đặt TheHive (nền tảng điều phối phân tích sự kiện) và Cortex (công cụ hỗ trợ phân tích tự động). Máy này tiếp nhận kết quả phân tích từ Bedrock AI và tạo ra alert tương ứng trong TheHive. Các alert sau đó được xử lý bằng các analyzer và responder trong Cortex nhằm hỗ trợ SOC analyst thực hiện phản ứng sự kiện hoặc điều tra sâu.
 
-Link Demo Video: 
+Link Lab Video: 
 https://www.youtube.com/watch?v=6hFkN78U3NE
